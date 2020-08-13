@@ -12,7 +12,7 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 import com.example.infoappv3.R;
 
-public class HomeFragment extends Fragment {
+public class NewsFragment extends Fragment {
 
   private HomeViewModel homeViewModel;
 

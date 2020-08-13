@@ -8,7 +8,7 @@
   <fragment
     android:id="@+id/nav_news"
     android:label="@string/menu_news"
-    android:name="com.example.infoappv3.ui.news.HomeFragment"
+    android:name="com.example.infoappv3.ui.news.NewsFragment"
     tools:layout="@layout/fragment_news" />
 
   <fragment
