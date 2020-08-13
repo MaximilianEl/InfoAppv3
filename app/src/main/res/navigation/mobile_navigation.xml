@@ -14,7 +14,7 @@
   <fragment
     android:id="@+id/nav_camp"
     android:label="@string/menu_camp"
-    android:name="com.example.infoappv3.ui.Campus.GalleryFragment"
+    android:name="com.example.infoappv3.ui.Campus.CampusFragment"
     tools:layout="@layout/fragment_campus" />
 
   <fragment

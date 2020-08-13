@@ -12,17 +12,17 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 import com.example.infoappv3.R;
 
-public class GalleryFragment extends Fragment {
+public class CampusFragment extends Fragment {
 
-  private GalleryViewModel galleryViewModel;
+  private CampusViewModel campusViewModel;
 
   public View onCreateView(@NonNull LayoutInflater inflater,
       ViewGroup container, Bundle savedInstanceState) {
-    galleryViewModel =
-        ViewModelProviders.of(this).get(GalleryViewModel.class);
+    campusViewModel =
+        ViewModelProviders.of(this).get(CampusViewModel.class);
     View root = inflater.inflate(R.layout.fragment_campus, container, false);
     final TextView textView = root.findViewById(R.id.text_gallery);
-    galleryViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+    campusViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
       @Override
       public void onChanged(@Nullable String s) {
         textView.setText(s);
