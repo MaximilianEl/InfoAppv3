@@ -1,4 +1,4 @@
-package com.example.infoappv3.ui.gallery;
+package com.example.infoappv3.ui.Campus;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

@@ -1,4 +1,4 @@
-package com.example.infoappv3.ui.home;
+package com.example.infoappv3.ui.news;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

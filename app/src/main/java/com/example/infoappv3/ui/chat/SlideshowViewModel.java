@@ -1,4 +1,4 @@
-package com.example.infoappv3.ui.slideshow;
+package com.example.infoappv3.ui.chat;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

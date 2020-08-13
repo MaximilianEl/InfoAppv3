@@ -1,4 +1,4 @@
-package com.example.infoappv3.ui.home;
+package com.example.infoappv3.ui.news;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
