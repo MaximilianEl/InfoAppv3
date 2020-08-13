@@ -2,6 +2,7 @@ package com.example.infoappv3;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import java.util.Timer;
 
 public class MainActivity extends AppCompatActivity {
 
