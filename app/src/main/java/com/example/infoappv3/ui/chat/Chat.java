@@ -12,17 +12,17 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 import com.example.infoappv3.R;
 
-public class SlideshowFragment extends Fragment {
+public class Chat extends Fragment {
 
-  private SlideshowViewModel slideshowViewModel;
+  private ChatViewModel chatViewModel;
 
   public View onCreateView(@NonNull LayoutInflater inflater,
       ViewGroup container, Bundle savedInstanceState) {
-    slideshowViewModel =
-        ViewModelProviders.of(this).get(SlideshowViewModel.class);
-    View root = inflater.inflate(R.layout.fragment_slideshow, container, false);
+    chatViewModel =
+        ViewModelProviders.of(this).get(ChatViewModel.class);
+    View root = inflater.inflate(R.layout.fragment_chat, container, false);
     final TextView textView = root.findViewById(R.id.text_slideshow);
-    slideshowViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+    chatViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
       @Override
       public void onChanged(@Nullable String s) {
         textView.setText(s);

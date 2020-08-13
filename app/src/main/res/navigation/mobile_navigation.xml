@@ -3,23 +3,47 @@
   xmlns:app="http://schemas.android.com/apk/res-auto"
   xmlns:tools="http://schemas.android.com/tools"
   android:id="@+id/mobile_navigation"
-  app:startDestination="@+id/nav_home">
+  app:startDestination="@+id/nav_news">
 
   <fragment
-    android:id="@+id/nav_home"
-    android:label="@string/menu_home"
+    android:id="@+id/nav_news"
+    android:label="@string/menu_news"
     android:name="com.example.infoappv3.ui.news.HomeFragment"
-    tools:layout="@layout/fragment_home" />
+    tools:layout="@layout/fragment_news" />
 
   <fragment
-    android:id="@+id/nav_gallery"
-    android:label="@string/menu_gallery"
+    android:id="@+id/nav_camp"
+    android:label="@string/menu_camp"
     android:name="com.example.infoappv3.ui.Campus.GalleryFragment"
-    tools:layout="@layout/fragment_gallery" />
+    tools:layout="@layout/fragment_campus" />
 
   <fragment
-    android:id="@+id/nav_slideshow"
-    android:label="@string/menu_slideshow"
-    android:name="com.example.infoappv3.ui.chat.SlideshowFragment"
-    tools:layout="@layout/fragment_slideshow" />
+    android:id="@+id/nav_chat"
+    android:label="@string/menu_chat"
+    android:name="com.example.infoappv3.ui.chat.Chat"
+    tools:layout="@layout/fragment_chat" />
+
+  <fragment
+    android:id="@+id/nav_imprint"
+    android:label="@string/menu_imprint"
+    android:name="com.example.infoappv3.ui.imprint.ImprintFragment"
+    tools:layout="@layout/fragment_imprint" />
+
+  <fragment
+    android:id="@+id/nav_institute"
+    android:label="@string/menu_institute"
+    android:name="com.example.infoappv3.ui.institute.InstituteFragment"
+    tools:layout="@layout/fragment_institute" />
+
+  <fragment
+    android:id="@+id/nav_feedback"
+    android:label="@string/menu_feedback"
+    android:name="com.example.infoappv3.ui.feedback.FeedbackFragment"
+    tools:layout="@layout/fragment_chat" />
+
+  <fragment
+    android:id="@+id/nav_options"
+    android:label="@string/menu_options"
+    android:name="com.example.infoappv3.ui.options.OptionsFragment"
+    tools:layout="@layout/fragment_chat" />
 </navigation>
