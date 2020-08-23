@@ -12,12 +12,6 @@
     tools:layout="@layout/fragment_news" />
 
   <fragment
-    android:id="@+id/nav_camp"
-    android:label="@string/menu_camp"
-    android:name="com.example.infoappv3.ui.Campus.CampusFragment"
-    tools:layout="@layout/fragment_campus" />
-
-  <fragment
     android:id="@+id/nav_chat"
     android:label="@string/menu_chat"
     android:name="com.example.infoappv3.ui.chat.Chat"

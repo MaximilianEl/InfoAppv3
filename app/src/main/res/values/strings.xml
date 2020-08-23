@@ -17,4 +17,8 @@
   <string name="menu_imprint">Impressum</string>
 
   <string name="hello_blank_fragment">Hello blank fragment</string>
+
+  <string name="ins_header">Über das Institut</string>
+  <string name="ins_header2">Aktuelles</string>
+
 </resources>

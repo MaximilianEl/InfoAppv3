@@ -12,6 +12,9 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 import com.example.infoappv3.R;
 
+// Hier kommt die campusmap hin mit den Extrahinweisen wo was ist usw.
+// vllt noch Haltestellen
+
 public class CampusFragment extends Fragment {
 
   private CampusViewModel campusViewModel;
