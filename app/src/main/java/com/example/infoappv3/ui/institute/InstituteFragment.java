@@ -101,7 +101,7 @@ public class InstituteFragment extends Fragment {
                 //ins_secondtext.visibility = GONE;
             }
         }
-    }
+    };
 
     static void getInsData(View view) {
         String url =
